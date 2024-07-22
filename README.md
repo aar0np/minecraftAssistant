@@ -56,11 +56,9 @@ In Minecraft, the recipe for crafting an iron helmet requires 5 iron ingots. To 
 
 Here's a visual representation of the crafting grid:
 
-```
 [Iron Ingot] [Iron Ingot] [Iron Ingot]
 [Iron Ingot] [Empty]     [Iron Ingot]
 [Empty]      [Empty]     [Empty]
-```
 
 Once you have arranged the iron ingots in this pattern on the crafting table, you can then drag the iron helmet to your inventory.
 ```
