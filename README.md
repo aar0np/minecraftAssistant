@@ -1,5 +1,5 @@
 # Minecraft Assistant
-A console and API-based AI assistant built in Python using LangChain and OpenAI; designed to run on DataStax Hyper-Converged Database (HCD).
+A console and API-based AI assistant built in Python using LangChain and OpenAI; designed to run on DataStax Hyper-Converged Database (HCD). API service can be used with this GUI project: https://github.com/aar0np/Minecraft-AI-Assistant-UI
 
 ## Requirements
  - Built on Python 3.12
@@ -117,3 +117,6 @@ curl -s -XPOST http://127.0.0.1:8000/askAI \
 
 {"answer":"To craft a gold sword in Minecraft, you will need the following ingredients:\n\n- 2 Gold Ingots\n- 1 Stick\n\nHere's the crafting recipe:\n\n1. Open your Crafting Table (3x3 crafting grid).\n2. Place the 2 Gold Ingots in the middle column:\n   - 1st Gold Ingot in the top-middle slot.\n   - 2nd Gold Ingot in the middle slot.\n3. Place the Stick in the bottom-middle slot.\n\nThe gold sword will appear in the result box, and you can then drag it into your inventory."}
 ```
+
+### GUI
+The API service can be used with this GUI project: https://github.com/aar0np/Minecraft-AI-Assistant-UI
