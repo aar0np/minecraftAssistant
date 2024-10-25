@@ -9,24 +9,20 @@ A console and API-based AI assistant built in Python using LangChain and OpenAI;
  	- HCD 1.0
  	- Astra DB (_connection code is commented-out, but present_)
  - Install the following libraries w/ Pip:
- 	- cassandra-driver 3.29.1
- 	- cassio 0.1.8
- 	- fastapi 0.111.1
- 	- langchain 0.2.9
- 	- langchain-openai 0.1.17
- 	- langchain-community 0.2.7
- - Environment variables:
- 	- CASSANDRA_ENDPOINT
- 	- CASSANDRA_USERNAME
- 	- CASSANDRA_PASSWORD
- 	- CASSANDRA_KEYSPACE
+    - langchain-astradb
+    - langchain-openai
+    - fastapi
+    - uvicorn
+- Environment variables:
+ 	- ASTRA_DB_API_ENDPOINT
+ 	- ASTRA_DB_APPLICATION_TOKEN
  	- OPENAI_API_KEY
 
 ## Data Loading
 
 ### Database schema
 
-Created automatically by the LangChain-Community `Cassandra` library.
+Created automatically by LangChain-AstraDB library.
 
 ### Web scraping
 _Text file are included in the repo, because this step is a bit messy._
